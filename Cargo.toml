@@ -3,7 +3,16 @@ name = "rs-sqlite2arrow-ipc"
 version = "0.1.0"
 edition = "2024"
 
+description = "Convert SQLite table to Arrow IPC stream"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-sqlite2arrow-ipc"
+homepage = "https://github.com/takanoriyanagitani/rs-sqlite2arrow-ipc"
+documentation = "https://docs.rs/rs-sqlite2arrow-ipc/latest"
+keywords = ["sqlite", "arrow", "ipc", "stream", "wasi"]
+
 exclude = [
+  "sqlite2ipc.wasm",
+  "in.sqlite.db3",
 ]
 
 [lints.rust]
